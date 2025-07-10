@@ -1,6 +1,3 @@
-Que legal, Rodrigo! Criar um repositório com sua primeira aula de Java é uma ótima forma de consolidar o aprendizado e ainda mostrar sua evolução. Vamos montar um `README.md` caprichado, com explicações, exemplos de código e os atalhos mais usados no IntelliJ. Aqui vai uma sugestão bem completa:
-
----
 
 ## 📘 Primeira Aula de Java — Repositório de Estudos
 
