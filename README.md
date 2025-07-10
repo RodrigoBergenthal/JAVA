@@ -1,0 +1,119 @@
+Que legal, Rodrigo! Criar um repositório com sua primeira aula de Java é uma ótima forma de consolidar o aprendizado e ainda mostrar sua evolução. Vamos montar um `README.md` caprichado, com explicações, exemplos de código e os atalhos mais usados no IntelliJ. Aqui vai uma sugestão bem completa:
+
+---
+
+## 📘 Primeira Aula de Java — Repositório de Estudos
+
+Este repositório contém os códigos e anotações da minha primeira aula de Java, utilizando a IDE [IntelliJ IDEA](https://www.jetbrains.com/idea/). Aprendemos os fundamentos da linguagem, como criação de classes, operações básicas e o clássico `Hello World`.
+
+---
+
+## 🚀 Conteúdo Abordado
+
+- ✅ Criação de classes em Java
+- ✅ Impressão no console (`System.out.println`)
+- ✅ Operações matemáticas básicas:
+  - Adição
+  - Subtração
+  - Multiplicação
+  - Divisão
+
+---
+
+## 🧠 Exemplos de Código
+
+### Hello World
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}
+```
+
+---
+
+### Operações Matemáticas em uma única classe
+
+```java
+public class OperacoesMatematicas {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        System.out.println("Soma: " + (a + b));
+        System.out.println("Subtração: " + (a - b));
+        System.out.println("Multiplicação: " + (a * b));
+        System.out.println("Divisão: " + (a / b));
+    }
+}
+```
+### Operações Soma
+
+```java
+public class Multiplicacao {
+    public static void main(String[] args) {
+        System.out.println(10*5);
+    }
+}
+---
+```
+### Operações Soma
+
+```java
+public class Multiplicacao {
+    public static void main(String[] args) {
+        System.out.println(10*5);
+    }
+}
+---
+```
+### Operações Subtração
+
+```java
+public class Subtracao {
+    public static void main(String[] args) {
+        System.out.println(10-5);
+    }
+}
+---
+```
+### Operações Divisão
+
+```java
+ppublic class Divisao {
+    public static void main(String[] args) {
+        System.out.println(10/5);
+    }
+}
+```
+### Operações Multiplicação
+
+```java
+public class Multiplicacao {
+    public static void main(String[] args) {
+        System.out.println(10*5);
+    }
+}
+
+```
+
+## ⚡ Atalhos Úteis no IntelliJ IDEA
+
+| Atalho      | Descrição                                 |
+|-------------|--------------------------------------------|
+| `psvm`      | Gera automaticamente o método `main`       |
+| `sout`      | Gera automaticamente `System.out.println()`|
+| `Ctrl + /`  | Comenta/Descomenta linha                   |
+| `Alt + Insert` | Gera código (Getters, Setters, etc.)    |
+| `Shift + F10` | Executa o programa                        |
+| `Shift + F9`  | Inicia a depuração (debug)                |
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- Java JDK 17+
+- IntelliJ IDEA
+
