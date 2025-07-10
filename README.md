@@ -1,5 +1,5 @@
 
-## 📘 Primeira Aula de Java — Repositório de Estudos
+## 📘 Primeira Aula de Java — Repositório de Classes.Estudos
 
 Este repositório contém os códigos e anotações da minha primeira aula de Java, utilizando a IDE [IntelliJ IDEA](https://www.jetbrains.com/idea/). Aprendemos os fundamentos da linguagem, como criação de classes, operações básicas e o clássico `Hello World`.
 
@@ -22,7 +22,7 @@ Este repositório contém os códigos e anotações da minha primeira aula de Ja
 ### Hello World
 
 ```java
-public class HelloWorld {
+public class Classes.HelloWorld {
     public static void main(String[] args) {
         System.out.println("Olá, mundo!");
     }
@@ -39,27 +39,27 @@ public class OperacoesMatematicas {
         int a = 10;
         int b = 5;
 
-        System.out.println("Soma: " + (a + b));
+        System.out.println("Classes.Soma: " + (a + b));
         System.out.println("Subtração: " + (a - b));
         System.out.println("Multiplicação: " + (a * b));
         System.out.println("Divisão: " + (a / b));
     }
 }
 ```
-### Operações Soma
+### Operações Classes.Soma
 
 ```java
-public class Multiplicacao {
+public class Classes.Multiplicacao {
     public static void main(String[] args) {
         System.out.println(10*5);
     }
 }
 ---
 ```
-### Operações Soma
+### Operações Classes.Soma
 
 ```java
-public class Multiplicacao {
+public class Classes.Multiplicacao {
     public static void main(String[] args) {
         System.out.println(10*5);
     }
@@ -69,7 +69,7 @@ public class Multiplicacao {
 ### Operações Subtração
 
 ```java
-public class Subtracao {
+public class Classes.Subtracao {
     public static void main(String[] args) {
         System.out.println(10-5);
     }
@@ -79,7 +79,7 @@ public class Subtracao {
 ### Operações Divisão
 
 ```java
-ppublic class Divisao {
+ppublic class Classes.Divisao {
     public static void main(String[] args) {
         System.out.println(10/5);
     }
@@ -88,7 +88,7 @@ ppublic class Divisao {
 ### Operações Multiplicação
 
 ```java
-public class Multiplicacao {
+public class Classes.Multiplicacao {
     public static void main(String[] args) {
         System.out.println(10*5);
     }
