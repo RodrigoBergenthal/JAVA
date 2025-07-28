@@ -6,14 +6,55 @@ Além disso, crie também uma outra classe contendo o método main, no qual voc�
 
 #Desafio dia 29 em aula!
 
-##Vamos praticar?
+## 🚀 Vamos praticar?
 
-##1 Crie uma classe Pessoa com um método que exibe "Olá, mundo!" no console.
+### 1️⃣ Classe Pessoa
+Crie uma classe `Pessoa` com um método que exibe `"Olá, mundo!"` no console.
 
-##2 Crie uma classe Calculadora com um método que recebe um número como parâmetro e retorna o dobro desse número.
+---
 
-##3 Crie uma classe Musica com atributos titulo, artista, anoLancamento, avaliacao e numAvaliacoes, e métodos para exibir a  ficha técnica, avaliar a música e calcular a média de avaliações.
+### 2️⃣ Classe Calculadora
+Crie uma classe `Calculadora` com um método que recebe um número como parâmetro e retorna o **dobro** desse número.
 
-##4 Crie uma classe Carro com atributos modelo, ano, cor e métodos para exibir a ficha técnica e calcular a idade do carro.
+---
 
-##5 Crie uma classe Aluno com atributos nome, idade, e um método para exibir informações. Crie uma instância da classe Aluno, atribua valores aos seus atributos e utilize o método para exibir as informações.
+### 3️⃣ Classe Musica
+Crie uma classe `Musica` com os seguintes atributos:
+- `titulo`
+- `artista`
+- `anoLancamento`
+- `avaliacao`
+- `numAvaliacoes`
+
+E métodos para:
+- Exibir a ficha técnica
+- Avaliar a música
+- Calcular a média de avaliações
+
+---
+
+### 4️⃣ Classe Carro
+Crie uma classe `Carro` com os atributos:
+- `modelo`
+- `ano`
+- `cor`
+
+E métodos para:
+- Exibir a ficha técnica
+- Calcular a idade do carro
+
+---
+
+### 5️⃣ Classe Aluno
+Crie uma classe `Aluno` com os atributos:
+- `nome`
+- `idade`
+
+E um método para exibir informações.
+
+📌 Em seguida:
+- Crie uma instância da classe `Aluno`
+- Atribua valores aos seus atributos
+- Utilize o método para exibir as informações
+
+---
