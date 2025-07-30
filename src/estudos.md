@@ -38,17 +38,6 @@ Peça ao usuário um valor em minutos e exiba quantas horas e minutos isso repre
 
 ---
 
-### 🧠 4. Jogo de Adivinhação
-
-**Descrição:**  
-Gere um número aleatório entre 1 e 50. Peça ao usuário que tente adivinhar. Dê dicas até ele acertar.
-
-**Conceitos praticados:**  
-- `int`  
-- `while`  
-- aleatoriedade e lógica condicional
-
----
 
 ### 🎵 5. Repetição de Frase
 
