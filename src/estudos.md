@@ -39,7 +39,7 @@ Peça ao usuário um valor em minutos e exiba quantas horas e minutos isso repre
 ---
 
 
-### 🎵 5. Repetição de Frase
+### 🎵 4. Repetição de Frase
 
 **Descrição:**  
 Solicite ao usuário uma frase e um número. Repita a frase o número de vezes indicado, usando `while`.
