@@ -1,38 +1,72 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Arquivos de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
 
-### Java ###
+# Arquivos de compilação Java
 *.class
 *.jar
 *.war
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.nar
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Arquivos de log
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Diretórios de build
+target/
+build/
+out/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Arquivos de configuração local
+*.properties
+*.prefs
 
-### VS Code ###
+# Arquivos do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Arquivos do Gradle
+.gradle/
+build/
+
+# Arquivos do Eclipse
+.settings/
+.project
+.classpath
+
+# Arquivos do NetBeans
+nbproject/private/
+nb-configuration.xml
+
+# Arquivos do VS Code
 .vscode/
 
-### Mac OS ###
-.DS_Store
+# Arquivos do Node.js
+node_modules/
+
+# Arquivos do npm
+package-lock.json
+
+# Arquivos do sistema
+*.orig
+*.rej
+*~
+#*#
+.#*
+*#
