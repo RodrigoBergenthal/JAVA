@@ -1,19 +1,43 @@
 
-## 📘 Primeira Aula de Java — Repositório de Classes.Estudos
+# 📚 Guia de Estudos Java
 
-Este repositório contém os códigos e anotações da minha primeira aula de Java, utilizando a IDE [IntelliJ IDEA](https://www.jetbrains.com/idea/). Aprendemos os fundamentos da linguagem, como criação de classes, operações básicas e o clássico `Hello World`.
+Bem-vindo ao Guia de Estudos Java! Este repositório foi organizado para servir como uma referência completa para aprendizado da linguagem Java, desde conceitos básicos até tópicos avançados.
+
+## 📋 Índice
+
+### 🔰 Fundamentos da Linguagem
+- [Olá Mundo e Primeiros Passos](#primeiros-passos)
+- [Tipos Primitivos](./Tipos%20Primitivos.md)
+- [Operadores](./Operadores.md)
+- [Strings e Text Blocks](./Strings%20e%20Text%20Blocks.md)
+- [Formatação de Textos](./Formatação%20de%20Textos)
+- [Casting](./Casting.md)
+- [Comentários no Código](./Comentários%20no%20Código%20Fonte.md)
+
+### 🧩 Estruturas de Controle
+- [Condicionais](./src/Condicionais/)
+- [Loops e Iterações](#loops-e-iterações)
+
+### 📦 Orientação a Objetos
+- [Classes e Objetos](./src/OrientacaoObjetos/ClassesObjetos.md)
+- [Modificadores de Acesso](./src/OrientacaoObjetos/Modificadores.md)
+- [Palavra-chave 'this'](./src/OrientacaoObjetos/This.md)
+- [Convenções de Nomenclatura](./src/OrientacaoObjetos/PadraoNomes.md)
+- [Documentação JavaDoc](./src/OrientacaoObjetos/DocumentaçãoJava.md)
+
+### 🎮 Projetos Práticos
+- [Jogo de Adivinhação](./src/Game/Adivinha.java)
+- [Quiz](./src/Game/Quiz.java) - [Documentação](./src/Game/Quiz.md)
+- [Desafios](./src/Desafio.md)
 
 ---
 
-## 🚀 Conteúdo Abordado
+## 🔰 Fundamentos da Linguagem
 
-- ✅ Criação de classes em Java
-- ✅ Impressão no console (`System.out.println`)
-- ✅ Operações matemáticas básicas:
-  - Adição
-  - Subtração
-  - Multiplicação
-  - Divisão
+<a id="primeiros-passos"></a>
+### Olá Mundo e Primeiros Passos
+
+O clássico exemplo para iniciar em qualquer linguagem de programação:
 
 ---
 
@@ -22,16 +46,14 @@ Este repositório contém os códigos e anotações da minha primeira aula de Ja
 ### Hello World
 
 ```java
-public class Classes.HelloWorld {
+public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Olá, mundo!");
     }
 }
 ```
 
----
-
-### Operações Matemáticas em uma única classe
+### Operações Matemáticas Básicas
 
 ```java
 public class OperacoesMatematicas {
@@ -39,56 +61,42 @@ public class OperacoesMatematicas {
         int a = 10;
         int b = 5;
 
-        System.out.println("Classes.Soma: " + (a + b));
+        System.out.println("Soma: " + (a + b));
         System.out.println("Subtração: " + (a - b));
         System.out.println("Multiplicação: " + (a * b));
         System.out.println("Divisão: " + (a / b));
     }
 }
 ```
-### Operações Classes.Soma
+
+<a id="loops-e-iterações"></a>
+### Loops e Iterações
 
 ```java
-public class Classes.Multiplicacao {
+public class ExemplosLoops {
     public static void main(String[] args) {
-        System.out.println(10+5);
+        // Exemplo de for
+        System.out.println("Loop for:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteração " + i);
+        }
+        
+        // Exemplo de while
+        System.out.println("\nLoop while:");
+        int contador = 1;
+        while (contador <= 5) {
+            System.out.println("Contagem " + contador);
+            contador++;
+        }
     }
 }
 ```
-### Operações Subtração
-
-```java
-public class Classes.Subtracao {
-    public static void main(String[] args) {
-        System.out.println(10-5);
-    }
-}
 ---
-```
-### Operações Divisão
-
-```java
-ppublic class Classes.Divisao {
-    public static void main(String[] args) {
-        System.out.println(10/5);
-    }
-}
-```
-### Operações Multiplicação
-
-```java
-public class Classes.Multiplicacao {
-    public static void main(String[] args) {
-        System.out.println(10*5);
-    }
-}
-
-```
 
 ## ⚡ Atalhos Úteis no IntelliJ IDEA
 
 | Atalho      | Descrição                                 |
-|-------------|--------------------------------------------|
+|-------------|-----------------------------------------|
 | `psvm`      | Gera automaticamente o método `main`       |
 | `sout`      | Gera automaticamente `System.out.println()`|
 | `Ctrl + /`  | Comenta/Descomenta linha                   |
@@ -102,4 +110,20 @@ public class Classes.Multiplicacao {
 
 - Java JDK 17+
 - IntelliJ IDEA
+
+---
+
+## 📝 Como Usar Este Guia
+
+1. Navegue pelo índice para encontrar o tópico de interesse
+2. Estude a teoria nos arquivos markdown
+3. Examine os exemplos de código nas classes Java
+4. Pratique modificando os exemplos ou criando novos
+5. Consulte a documentação oficial do Java para aprofundamento
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar mais conteúdo educativo, sinta-se à vontade para abrir um Pull Request.
 
