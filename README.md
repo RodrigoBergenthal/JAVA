@@ -134,6 +134,9 @@ public class ExemplosLoops {
 
 Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar mais conteúdo educativo, sinta-se à vontade para abrir um Pull Request.
 
+# Estrutura do Projeto JAVA-main
+
+```
 JAVA-main/
 ├── .gitignore
 ├── README.md
@@ -183,3 +186,4 @@ JAVA-main/
 │       ├── Quiz.md
 │       └── README.md
 └── testes/
+```
