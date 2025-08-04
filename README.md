@@ -25,13 +25,13 @@ Bem-vindo ao Guia de Estudos Java! Este repositório foi organizado para servir 
 - [Documentação JavaDoc](./guia-de-estudos/orientacaoobjetos/DocumentacaoJava.md)
 
 ### 🎮 Projetos Práticos
-- [Jogo de Adivinhação](./guia-de-estudos/game/Adivinha.java)
-- [Quiz](./guia-de-estudos/game/Quiz.java) - [Documentação](./guia-de-estudos/game/Quiz.md)
+- [Jogo de Adivinhação](./projetos/game/Adivinha.java)
+- [Quiz](./projetos/game/Quiz.java) - [Documentação](./projetos/game/Quiz.md)
 
 ### 🏠 Desafios Home Office
-- [Desafios Gerais](./guia-de-estudos/homeoffice/Desafio.md)
-- [Desafios Fullstack](./guia-de-estudos/homeoffice/DesafioFullstack.md)
-- [Guia de Desafios](./guia-de-estudos/homeoffice/README.md)
+- [Desafios Gerais](./homeOffice/Desafio.md)
+- [Desafios Fullstack](./homeOffice/desafioFullstack.md)
+- [Guia de Desafios](./homeOffice/README.md)
 
 ### 🚩 Outros Desafios
 - [Desafio: Hora da Prática](./desafio/Desafio_ hora da prática.md)
@@ -137,24 +137,51 @@ Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar ma
 
 
 JAVA-main/
-│   README.md
-│   LICENSE
-│   .gitignore
-│
-├── documentacao/
-│   └── (arquivos .md de teoria)
-│
-├── guia-de-estudos/
-│   ├── fundamentos/
-│   ├── condicionais/
-│   ├── orientacao-objetos/
-│   └── game/
-│
+├── .gitignore
+├── README.md
 ├── desafio/
-│   └── (desafios gerais)
-│
-├── homeoffice/
-│   └── (desafios home office)
-│
+│   ├── DesafioHoraPratica.md
+│   └── estudos.md
+├── documentacao/
+│   ├── Casting.md
+│   ├── ComentariosCodigo.md
+│   ├── ConvencaoCodigo.md
+│   ├── ESTRUTURA.md
+│   ├── FormatacaoTextos.md
+│   ├── Operadores.md
+│   ├── StringsTextBlocks.md
+│   └── Tipos Primitivos.md
+├── guia-de-estudos/
+│   ├── Classes/
+│   │   ├── Divisao.java
+│   │   ├── Estudos.java
+│   │   ├── HelloWorld.java
+│   │   ├── Main.java
+│   │   ├── Multiplicacao.java
+│   │   ├── Perfil.java
+│   │   ├── Soma.java
+│   │   └── Subtracao.java
+│   ├── Condicionais/
+│   │   ├── Condiciona.java
+│   │   ├── Leitura.java
+│   │   └── README.md
+│   ├── Fundamentos/
+│   │   └── README.md
+│   └── OrientacaoObjetos/
+│       ├── ClassesObjetos.md
+│       ├── DocumentaçãoJava.md
+│       ├── Modificadores.md
+│       ├── PadraoNomes.md
+│       ├── README.md
+│       └── This.md
+├── homeOffice/
+│   ├── Desafio.md
+│   ├── README.md
+│   └── desafioFullstack.md
+├── projetos/
+│   └── game/
+│       ├── Adivinha.java
+│       ├── Quiz.java
+│       ├── Quiz.md
+│       └── README.md
 └── testes/
-    └── (exemplos de testes unitários)
