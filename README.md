@@ -27,6 +27,7 @@ Bem-vindo ao Guia de Estudos Java! Este repositório foi organizado para servir 
 ### 🎮 Projetos Práticos
 - [Jogo de Adivinhação](./projetos/game/Adivinha.java)
 - [Quiz](./projetos/game/Quiz.java) - [Documentação](./projetos/game/Quiz.md)
+- [Calculadora Avançada](./projetos/calculadora/Calculadora.java) - [Documentação](./projetos/calculadora/README.md)
 
 ### 🏠 Desafios Home Office
 - [Desafios Gerais](./homeOffice/Desafio.md)
@@ -120,6 +121,16 @@ public class ExemplosLoops {
 
 ---
 
+## 📋 Requisitos
+
+Para executar os exemplos e projetos neste repositório, você precisará:
+
+- Java Development Kit (JDK) versão 17 ou superior
+- Uma IDE como IntelliJ IDEA (recomendada) ou Eclipse
+- Git para clonar o repositório (opcional, mas recomendado para atualizações)
+
+---
+
 ## 📝 Como Usar Este Guia
 
 1. Navegue pelo índice para encontrar o tópico de interesse
@@ -134,6 +145,9 @@ public class ExemplosLoops {
 
 Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar mais conteúdo educativo, sinta-se à vontade para abrir um Pull Request.
 
+# Estrutura do Projeto JAVA-main
+
+```
 JAVA-main/
 ├── .gitignore
 ├── README.md
@@ -183,3 +197,4 @@ JAVA-main/
 │       ├── Quiz.md
 │       └── README.md
 └── testes/
+```
