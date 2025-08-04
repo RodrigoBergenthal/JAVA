@@ -13,8 +13,6 @@ Bem-vindo ao Guia de Estudos Java! Este repositório foi organizado para servir 
 - [Casting](./documentação/Casting.md)
 - [Comentários no Código](./documentação/ComentariosCodigo.md)
 
-
-
 ### 🧩 Estruturas de Controle
 - [Condicionais](./guia-de-estudos/condicionais/README.md)
 - [Loops e Iterações](#loops-e-iterações)
@@ -134,31 +132,25 @@ public class ExemplosLoops {
 
 ## 🤝 Contribuições
 
-Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar mais conteúdo educativo, sinta-se à vontade para abrir um Pull Request.
-
-# Estrutura do Projeto
-
-```
-JAVA-main/
-│   README.md 
-│   LICENSE 
-│   .gitignore 
+Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar mais conteúdo educativo, sinta-se à vontade para abrir um Pull Request.JAVA-main/
+│   README.md
+│   LICENSE
+│   .gitignore
 │
-├── documentacao/ 
-│   └── (arquivos .md de teoria) 
+├── documentacao/
+│   └── (arquivos .md de teoria)
 │
-├── guia-de-estudos/ 
-│   ├── fundamentos/ 
-│   ├── condicionais/ 
-│   ├── orientacao-objetos/ 
-│   └── homeOffice/
+├── guia-de-estudos/
+│   ├── fundamentos/
+│   ├── condicionais/
+│   ├── orientacao-objetos/
+│   └── game/
 │
-├── desafio/ 
-│   └── (desafios gerais) 
+├── desafio/
+│   └── (desafios gerais)
 │
-├── projetos/
-│   └── game/ 
+├── homeoffice/
+│   └── (desafios home office)
 │
-└── testes/ 
+└── testes/
     └── (exemplos de testes unitários)
-```
