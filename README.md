@@ -191,6 +191,9 @@ JAVA-main/
 │   ├── README.md
 │   └── desafioFullstack.md
 ├── projetos/
+│   ├── calculadora/
+│   │   ├── Calculadora.java
+│   │   └── README.md
 │   └── game/
 │       ├── Adivinha.java
 │       ├── Quiz.java
