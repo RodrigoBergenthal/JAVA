@@ -42,11 +42,16 @@ JAVA-main/
 │   │   ├── PadraoNomes.md            # Convenções de nomenclatura
 │   │   └── DocumentaçãoJava.md       # Documentação JavaDoc
 │   │
-│   └── Game/                         # Projetos práticos
-│       ├── README.md                 # Índice da seção de projetos práticos
-│       ├── Adivinha.java             # Jogo de adivinhação
-│       ├── Quiz.java                 # Jogo de perguntas e respostas
-│       └── Quiz.md                   # Documentação do jogo Quiz
+│   ├── Game/                         # Projetos práticos
+│   │   ├── README.md                 # Índice da seção de projetos práticos
+│   │   ├── Adivinha.java             # Jogo de adivinhação
+│   │   ├── Quiz.java                 # Jogo de perguntas e respostas
+│   │   └── Quiz.md                   # Documentação do jogo Quiz
+│   │
+│   └── homeOffice/                   # Desafios para prática em casa
+│       ├── README.md                 # Índice da seção de desafios
+│       ├── Desafio.md                # Desafios gerais de Java
+│       └── desafioFullstack.md       # Desafios para desenvolvimento fullstack
 ```
 
 ## 🧭 Como Navegar

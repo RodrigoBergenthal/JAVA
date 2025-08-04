@@ -28,7 +28,11 @@ Bem-vindo ao Guia de Estudos Java! Este repositório foi organizado para servir 
 ### 🎮 Projetos Práticos
 - [Jogo de Adivinhação](./src/Game/Adivinha.java)
 - [Quiz](./src/Game/Quiz.java) - [Documentação](./src/Game/Quiz.md)
-- [Desafios](./src/Desafio.md)
+
+### 🏠 Desafios Home Office
+- [Desafios Gerais](./src/homeOffice/Desafio.md)
+- [Desafios Fullstack](./src/homeOffice/desafioFullstack.md)
+- [Guia de Desafios](./src/homeOffice/README.md)
 
 ---
 
