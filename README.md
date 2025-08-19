@@ -99,7 +99,51 @@ public class ExemplosLoops {
     }
 }
 ```
+✅ Classe Pública (public)
+Pode ser acessada de qualquer lugar do projeto, inclusive de outros pacotes.
+Arquivo: Publica.java
+public class Publica {
+    public void exibirMensagem() {
+        System.out.println("Classe pública acessível de qualquer lugar.");
+    }
+}
+```
+```
+🚫 Classe Privada (private)
+Importante: Em Java, uma classe não pode ser private no nível de arquivo. O modificador private só é permitido para classes internas (nested classes).
+Arquivo: ClasseComInterna.java
+public class ClasseComInterna {
+    ```
+    private class PrivadaInterna {
+        public void mostrar() {
+            System.out.println("Classe interna privada acessível apenas dentro da classe externa.");
+        }
+    }
+```
+```
+    public void acessarClassePrivada() {
+        PrivadaInterna interna = new PrivadaInterna();
+        interna.mostrar();
+    }
+}
+```
+
+```
+```
+```
+📦 Classe Default (sem modificador)
+Pode ser acessada apenas dentro do mesmo pacote
+
+Arquivo: DefaultClasse.java
+class DefaultClasse {
+    public void saudacao() {
+        System.out.println("Classe com acesso default (pacote-local).");
+    }
+}
+
+```
 ---
+```
 
 ## ⚡ Atalhos Úteis no IntelliJ IDEA
 
@@ -113,14 +157,14 @@ public class ExemplosLoops {
 | `Shift + F9`   | Inicia a depuração (debug)                   |
 
 ---
-
+```
 ## 🛠 Tecnologias Utilizadas
 
 - Java JDK 17+
 - IntelliJ IDEA
-
+```
 ---
-
+```
 ## 📋 Requisitos
 
 Para executar os exemplos e projetos neste repositório, você precisará:
@@ -128,9 +172,9 @@ Para executar os exemplos e projetos neste repositório, você precisará:
 - Java Development Kit (JDK) versão 17 ou superior
 - Uma IDE como IntelliJ IDEA (recomendada) ou Eclipse
 - Git para clonar o repositório (opcional, mas recomendado para atualizações)
-
+```
 ---
-
+```
 ## 📝 Como Usar Este Guia
 
 1. Navegue pelo índice para encontrar o tópico de interesse
@@ -146,7 +190,7 @@ Para executar os exemplos e projetos neste repositório, você precisará:
 Contribuições são bem-vindas! Se você encontrar erros ou quiser adicionar mais conteúdo educativo, sinta-se à vontade para abrir um Pull Request.
 
 # Estrutura do Projeto JAVA-main
-
+```
 ```
 JAVA-main/
 ├── .gitignore
